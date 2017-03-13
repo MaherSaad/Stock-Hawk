@@ -1,0 +1,45 @@
+<resources>
+
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+
+
+
+    <string name="dialog_title">إضافة أسهم</string>
+    <string name="dialog_hint">الرمز (على سبيل المثال GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">اضافة</string>
+
+    <string name="error_no_network">لا يوجد اتصال بالانترنت ! سيتم تخزين السهم عند وجود اتصال بالانترنت .</string>
+    <string name="error_no_stocks"> لا يوجد اسهم ! اضف سهم من خلال زر الاضافة</string>
+
+    <string name="toast_stock_added_no_connectivity">
+تم اضافة السهم %s ، سيتم التحديث عند الاتصال بالانترنت .</string>
+    <string name="toast_no_connectivity">سيتم التحديث عند الاتصال بالانترنت .</string>
+
+
+    <string name="HISTORY_DISPLAY_7DAY">7 ايام</string>
+    <string name="HISTORY_DISPLAY_2WEEK">اسبوعين</string>
+    <string name="HISTORY_DISPLAY_ALL">كل الوقت</string>
+
+    <array name="CHANGE">
+        <item>@string/HISTORY_DISPLAY_7DAY</item>
+        <item>@string/HISTORY_DISPLAY_2WEEK</item>
+        <item>@string/HISTORY_DISPLAY_ALL</item>
+    </array>
+
+    <string name="MENU_LANGUAGE_AR">العربية</string>
+    <string name="MENU_LANGUAGE_EN">الانجليزية</string>
+
+    <string name="symbol_invaild">سهم غير صحيح</string>
+
+    <string name="add_symbol_descryption">إضافة سهم</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="spinner_date">وقت التغيير للسهم</string>
+    <string name="widget_no_data">لا يوجد اسهم ! </string>
+
+</resources>
