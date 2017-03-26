@@ -79,7 +79,7 @@ public class FragmentDetail extends Fragment implements LoaderManager.LoaderCall
 
         Intent intent = getActivity().getIntent();
 
-        uri = Contract.Quote.URI.buildUpon().appendPath(intent.getStringExtra("symbol")).build();
+        uri = Contract.Quote.URI.buildUpon().appendPath(intent.getStringExtra(MainActivity.STOCK_INTENT_KEY)).build();
 
         getActivity().getSupportLoaderManager().initLoader(LOADER_ID,null,this);
 
@@ -168,8 +168,7 @@ public class FragmentDetail extends Fragment implements LoaderManager.LoaderCall
         });
 
         lineChart.setData(data);
-        lineChart.invalidate();// set the data and list of lables into chart
-        //lineChart.setDescription("Description");
+        lineChart.invalidate();
 
     }
 

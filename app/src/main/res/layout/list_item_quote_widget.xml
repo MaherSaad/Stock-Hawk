@@ -5,13 +5,13 @@
     android:layout_height="?android:attr/listPreferredItemHeight"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:paddingLeft="16dp"
+    android:paddingEnd="16dp"
     android:id="@+id/main_container"
     android:foreground="@drawable/click"
     android:background="@drawable/divider"
     android:clickable="true"
 
-    android:paddingRight="16dp">
+    android:paddingStart="16dp">
 
     <TextView
         android:id="@+id/symbol"
@@ -40,9 +40,9 @@
             style="@style/PercentChangeTextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="3dp"
+            android:paddingEnd="3dp"
             android:textColor="#555"
             android:textSize="12sp"
-            android:paddingRight="3dp"
+            android:paddingStart="3dp"
             tools:text="100%" />
 </LinearLayout>

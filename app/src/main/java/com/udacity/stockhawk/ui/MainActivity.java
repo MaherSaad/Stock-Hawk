@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     TextView error;
     private StockAdapter adapter;
 
+    public static final String STOCK_INTENT_KEY = "stock_key";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -203,7 +205,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     @Override
     public void onClick(String symbol) {
         Intent i = new Intent(this, DetailActivity.class);
-        i.putExtra("symbol",symbol);
+        i.putExtra(STOCK_INTENT_KEY,symbol);
         startActivity(i);
 
     }
