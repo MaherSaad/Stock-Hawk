@@ -10,11 +10,11 @@ If you're a Nanodegree student check your work againt the project [rubric](https
 
 Pull requests gratefully accepted.
 
-#screen shot
+# screen shot
 ![untitled-1](https://cloud.githubusercontent.com/assets/10210954/24335036/320567c2-1276-11e7-8312-3889c629ebc8.png)
 
   
-#License
+# License
 
 ```
 Copyright 2017 Maher Saad
